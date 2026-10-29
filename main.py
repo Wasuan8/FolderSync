@@ -1,0 +1,19 @@
+"""
+main.py — FolderSync entry point.
+
+Run this file to start the application:
+
+    python3 main.py
+"""
+
+from ui import App
+
+
+def main() -> None:
+    app = App()
+    app.mainloop()
+
+
+if __name__ == "__main__":
+    main()
+
